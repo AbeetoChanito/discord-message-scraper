@@ -1,6 +1,6 @@
 (function () {
-  if (window.__initalizedScraper) return;
-  window.__initalizedScraper = true;
+  if (window.__initScraper) return;
+  window.__initScraper = true;
 
   let prevMessages = [];
   let allMessages = [];
