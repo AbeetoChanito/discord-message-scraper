@@ -4,7 +4,6 @@
 
   let prevMessages = [];
   let allMessages = [];
-  let scrapeionInterval;
 
   function arraysAreEqual(arr1, arr2) {
     if (arr1.length !== arr2.length) return false;
@@ -16,8 +15,8 @@
     if (scroller) {
       if (scroller.scrollTop === 0) {
         downloadJSON();
-        clearInterval(scrapeionInterval);
-        window.__messagescrapeorInitialized = false;
+        clearInterval(scrapeInterval);
+        window.__initScraper = false;
       } else {
         scroller.scrollBy({ top: pixels, behavior: "smooth" });
       }
