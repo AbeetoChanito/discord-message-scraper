@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Message Scraper",
+  "version": "1.0",
+  "description": "Export Discord messages through scraping.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://discord.com/*"
+  ]
+}
