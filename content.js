@@ -56,7 +56,7 @@
       prevMessages = [...messages];
     }
 
-    scrollSpecificScroller(-200);
+    scrollSpecificScroller(-400);
   }
 
   function downloadJSON() {
