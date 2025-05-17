@@ -78,5 +78,5 @@
     URL.revokeObjectURL(url);
   }
 
-  scrapeionInterval = setInterval(scrapeMessages, 200);
+  scrapeInterval = setInterval(scrapeMessages, 200);
 })();
